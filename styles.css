@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    h1 {
+    margin-right: auto;
+    color: #ff5c0f
+}
+span{
+    color: #20a8b4
+}
+li, a {
+    color: black;
+}
+li, a, button {
+    text-decoration: none;
+    font-weight: 500;
+}
+header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 15px;
+    text-decoration-color: none;
+}
+
+.nav__links li a:hover {
+    color: #ff5c0f
+}
+
+button {
+    color: white;
+    margin-right: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #20a8b4;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+
+}
+
+#body {
+    list-style-type: none;
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.image {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    float: right;
+    margin-top: 10%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .desktop {
+       display: none;
+    }       
+    .mobile {
+       display: block;
+    }
+}
